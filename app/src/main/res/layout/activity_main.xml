@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv_zapis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:text="0"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/tv_san"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/teal_200"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:text="0"
+        android:textSize="34sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnCancel"
+            style="@style/button_func_style_land"
+            android:layout_weight="1"
+            android:text="C"
+            android:textColor="#00796B"
+            android:textColorHighlight="#0F453F"
+            android:textColorLink="#0EAC9A"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnPlusMinus"
+            style="@style/button_func_style_land"
+            android:text="+/-"
+            android:textColor="#00796B"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/BtnOut"
+            style="@style/button_func_style_land"
+            android:text="%"
+            android:textColor="#00796B"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnBolu"
+            style="@style/button_func_style_land"
+            android:text="/"
+            android:textColor="#00796B"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn7"
+            style="@style/button_number_style_land"
+            android:text="7"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn8"
+            style="@style/button_number_style_land"
+            android:text="8"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn9"
+            style="@style/button_number_style_land"
+            android:text="9"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnX"
+            style="@style/button_func_style_land"
+            android:text="X"
+            android:textColor="#00796B"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn4"
+            style="@style/button_number_style_land"
+            android:text="4"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn5"
+            style="@style/button_number_style_land"
+            android:text="5"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn6"
+            style="@style/button_number_style_land"
+            android:text="6"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnMinus"
+            style="@style/button_func_style_land"
+            android:text="-"
+            android:textColor="#00796B"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn1"
+            style="@style/button_number_style_land"
+            android:text="1"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn2"
+            style="@style/button_number_style_land"
+            android:text="2"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn3"
+            style="@style/button_number_style_land"
+            android:text="3"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnPlus"
+            style="@style/button_func_style_land"
+            android:text="+"
+            android:textColor="#00796B"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn0"
+            style="@style/button_number_style_land"
+            android:text="0"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnDecimal"
+            style="@style/button_number_style_land"
+            android:text="."
+            android:textColor="#00796B"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btnTen"
+            style="@style/button_func_style_land"
+            android:layout_weight="3.7"
+            android:text="="
+            android:textColor="#00796B"
+            android:textSize="20sp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
